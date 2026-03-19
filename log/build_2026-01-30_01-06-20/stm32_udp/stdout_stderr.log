@@ -1,0 +1,62 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/stm32_udp_odom.dir/src/stm32_udp_odom.cpp.o[0m
+[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:[m[K In member function ‘[01m[Kvoid UdpOdomNode::[01;32m[Krecv_loop[m[K()[m[K’:
+[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:42:84:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   42 |         int bufferLen = recvfrom(sockfd,(char*)buffer,sizeof(buffer),0,(sockaddr*)&[01;31m[K,[m[Klen);
+      |                                                                                    [01;31m[K^[m[K
+[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:43:16:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K< 0[m[K’ is always false [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+   43 |         if([01;35m[Klen < 0[m[K){
+      |            [01;35m[K~~~~^~~[m[K
+[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:52:32:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’} to ‘[01m[Kchar*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   52 |         char* xString = strtok([01;31m[Kbuffer[m[K,' ');
+      |                                [01;31m[K^~~~~~[m[K
+      |                                [01;31m[K|[m[K
+      |                                [01;31m[Kuint8_t* {aka unsigned char*}[m[K
+In file included from [01m[K/usr/include/c++/13/cstring:42[m[K,
+                 from [01m[K/opt/ros/kilted/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:18[m[K,
+                 from [01m[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:12[m[K,
+                 from [01m[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:10[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:1[m[K:
+[01m[K/usr/include/string.h:356:39:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kchar*[01;32m[K strtok[m[K(char*, const char*)[m[K’
+  356 | extern char *strtok ([01;36m[Kchar *__restrict __s[m[K, const char *__restrict __delim)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:52:39:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   52 |         char* xString = strtok(buffer,[01;31m[K' '[m[K);
+      |                                       [01;31m[K^~~[m[K
+      |                                       [01;31m[K|[m[K
+      |                                       [01;31m[Kchar[m[K
+[01m[K/usr/include/string.h:356:67:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kchar*[01;32m[K strtok[m[K(char*, const char*)[m[K’
+  356 | extern char *strtok (char *__restrict __s, [01;36m[Kconst char *__restrict __delim[m[K)
+      |                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:53:37:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   53 |         char* yString = strtok(NULL,[01;31m[K' '[m[K);
+      |                                     [01;31m[K^~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kchar[m[K
+[01m[K/usr/include/string.h:356:67:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kchar*[01;32m[K strtok[m[K(char*, const char*)[m[K’
+  356 | extern char *strtok (char *__restrict __s, [01;36m[Kconst char *__restrict __delim[m[K)
+      |                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:54:41:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 |         char* angleString = strtok(NULL,[01;31m[K' '[m[K);
+      |                                         [01;31m[K^~~[m[K
+      |                                         [01;31m[K|[m[K
+      |                                         [01;31m[Kchar[m[K
+[01m[K/usr/include/string.h:356:67:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kchar*[01;32m[K strtok[m[K(char*, const char*)[m[K’
+  356 | extern char *strtok (char *__restrict __s, [01;36m[Kconst char *__restrict __delim[m[K)
+      |                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:55:40:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   55 |         char* timeString = strtok(NULL,[01;31m[K' '[m[K);
+      |                                        [01;31m[K^~~[m[K
+      |                                        [01;31m[K|[m[K
+      |                                        [01;31m[Kchar[m[K
+[01m[K/usr/include/string.h:356:67:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kchar*[01;32m[K strtok[m[K(char*, const char*)[m[K’
+  356 | extern char *strtok (char *__restrict __s, [01;36m[Kconst char *__restrict __delim[m[K)
+      |                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher__[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+   72 |         [01;31m[Kpublisher__[m[K->publish(odom);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Kpublisher_[m[K
+gmake[2]: *** [CMakeFiles/stm32_udp_odom.dir/build.make:76：CMakeFiles/stm32_udp_odom.dir/src/stm32_udp_odom.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/stm32_udp_odom.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

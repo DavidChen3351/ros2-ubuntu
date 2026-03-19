@@ -1,0 +1,116 @@
+[0.018s] Invoking command in '/home/young/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/young/ros2_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/young/ros2_ws/install/rplidar_ros
+[0.063s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.397s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.439s] -- Found rclcpp: 29.5.5 (/opt/ros/kilted/share/rclcpp/cmake)
+[0.514s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[0.536s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[0.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.714s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[0.716s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[0.800s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.930s] -- Found sensor_msgs: 5.5.1 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[1.042s] -- Found std_srvs: 5.5.1 (/opt/ros/kilted/share/std_srvs/cmake)
+[1.077s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[1.077s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[1.077s]   with modern CMake targets instead.  Try replacing this call with:
+[1.077s] 
+[1.078s]     target_link_libraries(rplidar_node PUBLIC
+[1.078s]       ${sensor_msgs_TARGETS}
+[1.078s]       ${std_srvs_TARGETS}
+[1.078s]       rclcpp::rclcpp
+[1.078s]       sensor_msgs::sensor_msgs_library
+[1.078s]     )
+[1.078s] 
+[1.080s] Call Stack (most recent call first):
+[1.081s]   CMakeLists.txt:61 (ament_target_dependencies)
+[1.081s] 
+[1.082s] [0m
+[1.082s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[1.082s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[1.082s]   with modern CMake targets instead.  Try replacing this call with:
+[1.082s] 
+[1.082s]     target_link_libraries(rplidar_composition PUBLIC
+[1.083s]       ${sensor_msgs_TARGETS}
+[1.083s]       ${std_srvs_TARGETS}
+[1.083s]       rclcpp::rclcpp
+[1.083s]       sensor_msgs::sensor_msgs_library
+[1.083s]     )
+[1.083s] 
+[1.083s] Call Stack (most recent call first):
+[1.083s]   CMakeLists.txt:68 (ament_target_dependencies)
+[1.083s] 
+[1.083s] [0m
+[1.083s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[1.083s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[1.083s]   with modern CMake targets instead.  Try replacing this call with:
+[1.084s] 
+[1.084s]     target_link_libraries(rplidar_client PUBLIC
+[1.084s]       ${sensor_msgs_TARGETS}
+[1.084s]       ${std_srvs_TARGETS}
+[1.084s]       rclcpp::rclcpp
+[1.084s]       sensor_msgs::sensor_msgs_library
+[1.084s]     )
+[1.084s] 
+[1.084s] Call Stack (most recent call first):
+[1.084s]   CMakeLists.txt:75 (ament_target_dependencies)
+[1.084s] 
+[1.084s] [0m
+[1.226s] -- Configuring done (1.2s)
+[1.280s] -- Generating done (0.0s)
+[1.288s] -- Build files have been written to: /home/young/ros2_ws/build/rplidar_ros
+[1.297s] Invoked command in '/home/young/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/young/ros2_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/young/ros2_ws/install/rplidar_ros
+[1.299s] Invoking command in '/home/young/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/young/ros2_ws/build/rplidar_ros -- -j4 -l4
+[1.421s] [ 47%] Built target rplidar_node
+[1.430s] [ 55%] Built target rplidar_client
+[1.432s] [100%] Built target rplidar_composition
+[1.455s] Invoked command in '/home/young/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/young/ros2_ws/build/rplidar_ros -- -j4 -l4
+[1.470s] Invoking command in '/home/young/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/young/ros2_ws/build/rplidar_ros
+[1.484s] -- Install configuration: ""
+[1.484s] -- Execute custom install script
+[1.484s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[1.484s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[1.484s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[1.485s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[1.485s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[1.486s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[1.486s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[1.487s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[1.487s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[1.488s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[1.488s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[1.489s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[1.489s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[1.490s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[1.490s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[1.491s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[1.491s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[1.492s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[1.492s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[1.492s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[1.493s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[1.493s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[1.494s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[1.494s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[1.494s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[1.495s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[1.495s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[1.496s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[1.496s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[1.497s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[1.497s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[1.497s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[1.497s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[1.497s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[1.498s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[1.498s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[1.498s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[1.499s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[1.499s] -- Symlinking: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[1.514s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[1.514s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.515s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.515s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[1.515s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[1.516s] -- Up-to-date symlink: /home/young/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[1.518s] Invoked command in '/home/young/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/young/ros2_ws/build/rplidar_ros

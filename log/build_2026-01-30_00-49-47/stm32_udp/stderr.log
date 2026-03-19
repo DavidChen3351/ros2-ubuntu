@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:14 (find_package):
+  By not providing "Findcstdlib.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "cstdlib", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "cstdlib" with any
+  of the following names:
+
+    cstdlibConfig.cmake
+    cstdlib-config.cmake
+
+  Add the installation prefix of "cstdlib" to CMAKE_PREFIX_PATH or set
+  "cstdlib_DIR" to a directory containing one of the above files.  If
+  "cstdlib" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m

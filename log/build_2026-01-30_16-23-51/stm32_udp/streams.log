@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/young/ros2_ws/build/stm32_udp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/young/ros2_ws/build/stm32_udp -- -j4 -l4
+[0.192s] [ 50%] [32mBuilding CXX object CMakeFiles/stm32_udp_odom.dir/src/stm32_udp_odom.cpp.o[0m
+[3.829s] [01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:[m[K In member function ‘[01m[Kvoid UdpOdomNode::[01;32m[Krecv_loop[m[K()[m[K’:
+[3.829s] [01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:65:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuf[m[K’ was not declared in this scope
+[3.830s]    65 |         memcpy(&x, [01;31m[Kbuf[m[K + 0, 4);
+[3.830s]       |                    [01;31m[K^~~[m[K
+[5.491s] gmake[2]: *** [CMakeFiles/stm32_udp_odom.dir/build.make:76：CMakeFiles/stm32_udp_odom.dir/src/stm32_udp_odom.cpp.o] 错误 1
+[5.491s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/stm32_udp_odom.dir/all] 错误 2
+[5.492s] gmake: *** [Makefile:146：all] 错误 2
+[5.494s] Invoked command in '/home/young/ros2_ws/build/stm32_udp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/young/ros2_ws/build/stm32_udp -- -j4 -l4

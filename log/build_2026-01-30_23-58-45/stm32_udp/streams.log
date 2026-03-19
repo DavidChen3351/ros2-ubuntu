@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/young/ros2_ws/build/stm32_udp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/young/ros2_ws/build/stm32_udp -- -j4 -l4
+[0.181s] [ 50%] [32mBuilding CXX object CMakeFiles/stm32_udp_odom.dir/src/stm32_udp_odom.cpp.o[0m
+[9.013s] [100%] [32m[1mLinking CXX executable stm32_udp_odom[0m
+[9.411s] [100%] Built target stm32_udp_odom
+[9.439s] Invoked command in '/home/young/ros2_ws/build/stm32_udp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/young/ros2_ws/build/stm32_udp -- -j4 -l4
+[9.439s] Invoking command in '/home/young/ros2_ws/build/stm32_udp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/young/ros2_ws/build/stm32_udp
+[9.455s] -- Install configuration: ""
+[9.455s] -- Installing: /home/young/ros2_ws/install/stm32_udp/lib/stm32_udp/stm32_udp_odom
+[9.457s] -- Set non-toolchain portion of runtime path of "/home/young/ros2_ws/install/stm32_udp/lib/stm32_udp/stm32_udp_odom" to ""
+[9.458s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/ament_index/resource_index/package_run_dependencies/stm32_udp
+[9.458s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/ament_index/resource_index/parent_prefix_path/stm32_udp
+[9.459s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/environment/ament_prefix_path.sh
+[9.460s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/environment/ament_prefix_path.dsv
+[9.461s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/environment/path.sh
+[9.461s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/environment/path.dsv
+[9.463s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/local_setup.bash
+[9.463s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/local_setup.sh
+[9.463s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/local_setup.zsh
+[9.465s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/local_setup.dsv
+[9.466s] -- Installing: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/package.dsv
+[9.471s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/ament_index/resource_index/packages/stm32_udp
+[9.472s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/cmake/stm32_udpConfig.cmake
+[9.472s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/cmake/stm32_udpConfig-version.cmake
+[9.472s] -- Up-to-date: /home/young/ros2_ws/install/stm32_udp/share/stm32_udp/package.xml
+[9.474s] Invoked command in '/home/young/ros2_ws/build/stm32_udp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/young/ros2_ws/build/stm32_udp

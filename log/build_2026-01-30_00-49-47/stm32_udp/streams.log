@@ -1,0 +1,45 @@
+[0.018s] Invoking command in '/home/young/ros2_ws/build/stm32_udp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/young/ros2_ws/src/stm32_udp -DCMAKE_INSTALL_PREFIX=/home/young/ros2_ws/install/stm32_udp
+[0.130s] -- The C compiler identification is GNU 13.3.0
+[0.269s] -- The CXX compiler identification is GNU 13.3.0
+[0.292s] -- Detecting C compiler ABI info
+[0.435s] -- Detecting C compiler ABI info - done
+[0.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.454s] -- Detecting C compile features
+[0.457s] -- Detecting C compile features - done
+[0.471s] -- Detecting CXX compiler ABI info
+[0.604s] -- Detecting CXX compiler ABI info - done
+[0.618s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.618s] -- Detecting CXX compile features
+[0.618s] -- Detecting CXX compile features - done
+[0.625s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.830s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.979s] -- Found rclcpp: 29.5.5 (/opt/ros/kilted/share/rclcpp/cmake)
+[1.024s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[1.041s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[1.066s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.089s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.203s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[1.206s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[1.319s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.334s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.484s] -- Found std_msgs: 5.5.1 (/opt/ros/kilted/share/std_msgs/cmake)
+[1.510s] -- Found nav_msgs: 5.5.1 (/opt/ros/kilted/share/nav_msgs/cmake)
+[1.610s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.611s]   By not providing "Findcstdlib.cmake" in CMAKE_MODULE_PATH this project has
+[1.611s]   asked CMake to find a package configuration file provided by "cstdlib", but
+[1.611s]   CMake did not find one.
+[1.611s] 
+[1.611s]   Could not find a package configuration file provided by "cstdlib" with any
+[1.611s]   of the following names:
+[1.611s] 
+[1.611s]     cstdlibConfig.cmake
+[1.611s]     cstdlib-config.cmake
+[1.612s] 
+[1.612s]   Add the installation prefix of "cstdlib" to CMAKE_PREFIX_PATH or set
+[1.612s]   "cstdlib_DIR" to a directory containing one of the above files.  If
+[1.612s]   "cstdlib" provides a separate development package or SDK, be sure it has
+[1.612s]   been installed.
+[1.612s] 
+[1.612s] [0m
+[1.612s] -- Configuring incomplete, errors occurred!
+[1.623s] Invoked command in '/home/young/ros2_ws/build/stm32_udp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/young/ros2_ws/src/stm32_udp -DCMAKE_INSTALL_PREFIX=/home/young/ros2_ws/install/stm32_udp
