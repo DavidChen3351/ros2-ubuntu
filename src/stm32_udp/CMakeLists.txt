@@ -41,5 +41,9 @@ target_link_libraries(
 #ament_target_dependencies(stm32_udp_odom rclcpp nav_msgs geometry_msgs tf2 tf2_ros)
 install(TARGETS stm32_udp_odom DESTINATION lib/${PROJECT_NAME})
 
+install(DIRECTORY
+  launch
+  rviz
+  DESTINATION share/${PROJECT_NAME})
 
 ament_package()

@@ -1,2 +1,0 @@
-Invoking command in '/home/young/ros2_ws/build/stm32_udp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/young/ros2_ws/src/stm32_udp -DCMAKE_INSTALL_PREFIX=/home/young/ros2_ws/install/stm32_udp
-Invoked command in '/home/young/ros2_ws/build/stm32_udp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/young/ros2_ws/src/stm32_udp -DCMAKE_INSTALL_PREFIX=/home/young/ros2_ws/install/stm32_udp

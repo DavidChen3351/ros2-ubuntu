@@ -1,7 +1,0 @@
-[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:[m[K In member function ‘[01m[Kvoid UdpOdomNode::[01;32m[Krecv_loop[m[K()[m[K’:
-[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:65:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuf[m[K’ was not declared in this scope
-   65 |         memcpy(&x, [01;31m[Kbuf[m[K + 0, 4);
-      |                    [01;31m[K^~~[m[K
-gmake[2]: *** [CMakeFiles/stm32_udp_odom.dir/build.make:76：CMakeFiles/stm32_udp_odom.dir/src/stm32_udp_odom.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/stm32_udp_odom.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

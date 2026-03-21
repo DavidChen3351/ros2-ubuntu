@@ -1,8 +1,0 @@
-In file included from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/logging.hpp:24[m[K,
-                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
-                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
-                 from [01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:1[m[K:
-[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:[m[K In member function ‘[01m[Kvoid UdpOdomNode::[01;32m[Krecv_loop[m[K()[m[K’:
-[01m[K/home/young/ros2_ws/src/stm32_udp/src/stm32_udp_odom.cpp:78:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
-   78 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"\nangle: %f\nx: %f\ny: %f\nspeed: %f\ntheta"[m[K, angle, x, y, speed,theta);
-      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

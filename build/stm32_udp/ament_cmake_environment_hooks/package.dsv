@@ -1,4 +1,0 @@
-source;share/stm32_udp/local_setup.bash
-source;share/stm32_udp/local_setup.dsv
-source;share/stm32_udp/local_setup.sh
-source;share/stm32_udp/local_setup.zsh
