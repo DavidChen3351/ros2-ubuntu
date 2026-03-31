@@ -44,6 +44,7 @@ install(TARGETS stm32_udp_odom DESTINATION lib/${PROJECT_NAME})
 install(DIRECTORY
   launch
   rviz
+  params
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()

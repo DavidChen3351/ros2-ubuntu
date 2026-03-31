@@ -25,12 +25,16 @@ def generate_launch_description():
     use_slam = LaunchConfiguration("use_slam")
     use_rviz = LaunchConfiguration("use_rviz")
     rviz_config = LaunchConfiguration("rviz_config")
+    slam_params_file = LaunchConfiguration("slam_params_file")
 
     slam_launch = PathJoinSubstitution(
         [FindPackageShare("slam_toolbox"), "launch", "online_async_launch.py"]
     )
     default_rviz = PathJoinSubstitution(
         [FindPackageShare("stm32_udp"), "rviz", "stm32_udp.rviz"]
+    )
+    default_slam_params = PathJoinSubstitution(
+        [FindPackageShare("stm32_udp"), "params", "slam_toolbox.yaml"]
     )
 
     return LaunchDescription(
@@ -100,6 +104,11 @@ def generate_launch_description():
                 default_value=default_rviz,
                 description="RViz config file.",
             ),
+            DeclareLaunchArgument(
+                "slam_params_file",
+                default_value=default_slam_params,
+                description="slam_toolbox parameter file.",
+            ),
             Node(
                 package="rplidar_ros",
                 executable="rplidar_node",
@@ -136,7 +145,10 @@ def generate_launch_description():
             ),
             IncludeLaunchDescription(
                 PythonLaunchDescriptionSource(slam_launch),
-                launch_arguments={"use_sim_time": "false"}.items(),
+                launch_arguments={
+                    "use_sim_time": "false",
+                    "slam_params_file": slam_params_file,
+                }.items(),
                 condition=IfCondition(use_slam),
             ),
             Node(
