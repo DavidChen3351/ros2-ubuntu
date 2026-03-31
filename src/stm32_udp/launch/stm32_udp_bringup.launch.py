@@ -136,6 +136,7 @@ def generate_launch_description():
             ),
             IncludeLaunchDescription(
                 PythonLaunchDescriptionSource(slam_launch),
+                launch_arguments={"use_sim_time": "false"}.items(),
                 condition=IfCondition(use_slam),
             ),
             Node(
